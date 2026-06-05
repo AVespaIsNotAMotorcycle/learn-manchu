@@ -78,6 +78,84 @@ export default function Home() {
               and ū considered back vowels, and i considered a neutral vowel
             </li>
           </ol>
+          <p>
+            To study the basic vowel forms, we will combine vowels with three different consonants,
+          </p>
+          <table>
+            <tr>
+              <th>m</th>
+              <th>l</th>
+              <th>b</th>
+            </tr>
+            <tr>
+              <th>
+                <span className="manchu-text">ᠮ</span>
+              </th>
+              <th>
+                <span className="manchu-text">ᠯ</span>
+              </th>
+              <th>
+                <span className="manchu-text">ᠪ</span>
+              </th>
+            </tr>
+          </table>
+          <p>
+            Note that vowels combine with b differently from how they combine with m and l. Also,
+            note that ū does not appear in the following examples, becaūse it is ūsed almost
+            exclūsively with the more complicated consonants that we will cover in Lesson 2
+          </p>
+        </section>
+        <section>
+          <h2>Practice</h2>
+          <section>
+            <h3>Examples</h3>
+            <ul>
+              <li>
+                <span className="manchu-text"> ᠠᠮᠠ </span>
+                ama
+              </li>
+              <li>
+                <span className="manchu-text"> ᡝᠮᡝ </span>
+                eme
+              </li>
+              <li>
+                <span className="manchu-text"> ᠮᡳᠯᠠ </span>
+                mila
+              </li>
+              <li>
+                <span className="manchu-text"> ᠣᠮᠣ </span>
+                omo
+              </li>
+              <li>
+                <span className="manchu-text"> ᡝᠮᡠ </span>
+                emu
+              </li>
+              <li>
+                <span className="manchu-text"> ᠠᠮᠪᠠ </span>
+                amba
+              </li>
+              <li>
+                <span className="manchu-text"> ᠠᡳᠯᡳ </span>
+                aili
+              </li>
+              <li>
+                <span className="manchu-text"> ᠯᠠᠮᠠ </span>
+                lama
+              </li>
+              <li>
+                <span className="manchu-text"> ᠪᠠᠪᡝ </span>
+                babe
+              </li>
+              <li>
+                <span className="manchu-text"> ᡳᠯᡳ </span>
+                ili
+              </li>
+              <li>
+                <span className="manchu-text"> ᠪᡳ </span>
+                bi
+              </li>
+            </ul>
+          </section>
         </section>
       </main>
     </div>
