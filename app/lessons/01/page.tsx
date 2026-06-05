@@ -1,55 +1,87 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import lessonStyles from "../lessons.module.css";
+import "./lesson01.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <div className={lessonStyles.page}>
+      <main className={lessonStyles.main}>
         <h1>Lesson 1: Script I, Vowels</h1>
         <p>
           © 2020 David Porter This work is licensed under a CC BY-NC-SA 4.0 license
         </p>
         <section>
           <h2>Basic Principles</h2>
-          <ol>
-            <li>
+            <p className="credit-david-porter">
               Written from top to bottom, left to right (so books and documents flow in the
               opposite direction in Manchu as they do in classical Chinese; this principle is
               frequently employed in bilingual documents to avoid giving precedence to one
               language)
-            </li>
-            <li>
+            </p>
+            <figure>
+	            <p className="manchu-text demonstrate-directionality">
+								<span>ᡩᡝ᠈ </span>
+								<span>ᠮᡳᠩᡤᠠᠨ </span>
+								<span>ᠴᠣᠣᡥᠠ </span>
+								<span>ᠪᡝ </span>
+								<span>ᠠᡶᠠᠪᡠᡶᡳ </span>
+								<span>ᡠᠩᡤᡳᡶᡳ᠈ </span>
+								<span>ᡥᡝᠰᡳᡥᡝ᠈ </span>
+								<span>ᠣᠮᠣᡥᠣ </span>
+								<span>ᠰᡠᡵᡠ᠈ </span>
+								<span>ᡶᡝᠨᡝᡥᡝ </span>
+								<span>ᡨᠣᡴᠰᠣ᠈ </span>
+								<span>ᡨᡝᡵᡝ </span>
+								<span>ᡤᠣᠯᠣ </span>
+								<span>ᠪᡝ </span>
+								<span>ᠰᡠᠴᡠᡶᡳ </span>
+								<span>ᠸᠠᠴᡳᡥᡳᠶᠠᠮᡝ </span>
+								<span>ᡤᠠᡳᡶᡳ᠈ </span>
+								<span>ᠵᡠᠸᡝ </span>
+								<span>ᠮᡳᠩᡤᠠᠨ </span>
+								<span>ᠣᠯᠵᡳ </span>
+								<span>ᡤᠠᠵᡳᡥᠠ᠉ </span>
+              </p>
+              <figcaption>
+                <span>The above is from lines 101000415-101000502 of the </span>
+                <a
+                  href="https://www.manchustudiesgroup.org/translations/lao-manwen-dang/transliteration-of-the-manbun-roto/"
+                >
+                  Transliteration of the Manbun rōtō
+                </a>
+              </figcaption>
+            </figure>
+            <p className="credit-david-porter">
               The letters in a word are written along a straight vertical axis, linked together.
               Words are separated by a space.
-            </li>
-            <li>
+            </p>
+            <p className="credit-david-porter">
               Letters change form depending on their position in the word; there are four
               possible positions: standalone (only for vowels), initial, intermediate, and final.
               Some letters lack one (or more) of the forms because they can only be used in
               certain positions.
-            </li>
-            <li>
+            </p>
+            <p className="credit-david-porter">
               Some letters have multiple forms in the same position, depending on the letters
               that surround them.
-            </li>
-            <li>
+            </p>
+            <p>
               Punctuation in Manchu is poorly standardized, but there are two basic punctuation
               marks (prior to Modern Sibe, which has adopted additional marks):
               These represent a partial stop (sometimes roughly equivalent to a comma,
               sometimes to a period) and a full stop (sometimes roughly equivalent to a period,
               sometimes marking the end of a document or a section of a document)
               respectively.
-            </li>
-            <li>
+            </p>
+            <p>
               There is a certain degree of variation between printed and handwritten styles and
               within handwritten styles; I will vary the styles that you are shown to help you
               practice.
-            </li>
-            <li>
+            </p>
+            <p>
               The standard transcription of Manchu is the Möllendorff system, a version of
               which we will use in this class
-            </li>
-          </ol>
+            </p>
         </section>
         <section>
           <h2>Vowels</h2>
